@@ -4,6 +4,8 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+#ignoring .pptx temp files
+*'
 
 # Crash log files
 crash.log
