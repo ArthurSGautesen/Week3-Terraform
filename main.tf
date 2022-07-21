@@ -11,8 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "us-west-2"
-  access_key="AKIAYBMVBTEJXFVDRPHW"
-  secret_key="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"
+  profile = "default"
 }
 
 resource "aws_instance" "drupal_web_server" {
